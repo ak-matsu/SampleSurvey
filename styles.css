@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     padding: 0 10px; /* スマホでの表示を考慮してパディングを追加 */
 }
