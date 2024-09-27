@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const phoneInput = document.getElementById('phone');
+    phoneInput.addEventListener('input', function(event) {
+        this.value = this.value.replace(/[^\d-]/g, '');
+    });
+
     const contactTimeSelect = document.getElementById('contact_time');
     for (let hour = 9; hour <= 17; hour++) {
         const option = document.createElement('option');
