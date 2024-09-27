@@ -45,11 +45,6 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
-.required-field input,
-.required-field select,
-.required-field textarea {
-    background-color: #ffe6e6;
-}
 input[type="submit"] {
     width: 100%;
     padding: 10px;
